@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="344.0" prefWidth="334.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Choose">
+   <children>
+      <Button layoutX="85.0" layoutY="68.0" mnemonicParsing="false" onAction="#studnetInfo" text="studnet Information">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="85.0" layoutY="158.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="37.0" prefWidth="169.0" text="Change Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="83.0" layoutY="254.0" mnemonicParsing="false" onAction="#logOut" prefHeight="37.0" prefWidth="169.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>
