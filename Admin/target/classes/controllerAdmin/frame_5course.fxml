@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="358.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.ShowCourseFrame5">
+    <children>
+        <Label layoutX="177.0" layoutY="72.0" prefHeight="27.0" prefWidth="137.0" text="hours">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="295.0" layoutY="68.0" prefHeight="35.0" prefWidth="52.0" text="price">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="71.0" prefHeight="24.0" prefWidth="52.0" text="name">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="error" layoutX="84.0" layoutY="30.0" prefHeight="46.0" prefWidth="292.0" textFill="RED">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="displayObject" layoutX="58.0" layoutY="96.0" prefHeight="170.0" prefWidth="394.0">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <Button fx:id="display" layoutX="480.0" layoutY="135.0" mnemonicParsing="false" onAction="#display" prefHeight="46.0" prefWidth="82.0" text="display">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+      <Label layoutX="376.0" layoutY="68.0" prefHeight="35.0" prefWidth="88.0" text="degree">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

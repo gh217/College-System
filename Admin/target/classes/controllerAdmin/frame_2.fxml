@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="519.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.StatusFrame2">
+   <children>
+      <Button layoutX="139.0" layoutY="51.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="39.0" prefWidth="150.0" text="Add Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="221.0" mnemonicParsing="false" onAction="#updateStudent" prefHeight="39.0" prefWidth="150.0" text="Update Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="136.0" mnemonicParsing="false" onAction="#findStudent" prefHeight="39.0" prefWidth="150.0" text="Find Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="45.0" fitWidth="75.0" layoutX="91.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../add1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="97.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../se3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="75.0" layoutX="94.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../up1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="139.0" layoutY="298.0" mnemonicParsing="false" onAction="#deleteStudent" prefHeight="39.0" prefWidth="150.0" text="Delete Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="45.0" fitWidth="75.0" layoutX="94.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../del.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="139.0" layoutY="371.0" mnemonicParsing="false" onAction="#Object" prefHeight="39.0" prefWidth="150.0" text="Object">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="94.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../6-500x500.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="logOutButton" layoutX="139.0" layoutY="449.0" mnemonicParsing="false" onAction="#logOut" prefHeight="39.0" prefWidth="150.0" text="LogOut">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="94.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logout.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

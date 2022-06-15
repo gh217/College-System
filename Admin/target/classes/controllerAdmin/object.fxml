@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.Object">
+   <children>
+      <Button mnemonicParsing="false" onAction="#addObject" prefHeight="40.0" prefWidth="154.0" text="Add Object">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="100.0" top="40.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#deleteObject" prefHeight="40.0" prefWidth="154.0" text="Delete Object">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="100.0" top="30.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#updateObjectDegree" prefHeight="40.0" prefWidth="156.0" text="Update Degree">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="100.0" top="30.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#deleteObjectAll" text="Delete All Object">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="100.0" top="30.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

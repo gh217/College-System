@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.DeleteStudent">
+   <children>
+      <TextField fx:id="userNameField" layoutX="181.0" layoutY="109.0" prefHeight="39.0" prefWidth="309.0" promptText="User Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </TextField>
+      <Label layoutX="28.0" layoutY="108.0" prefHeight="40.0" prefWidth="119.0" text="User Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="statusDelete" layoutX="94.0" layoutY="23.0" prefHeight="55.0" prefWidth="330.0" textFill="#f20000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="succeed" layoutX="104.0" layoutY="22.0" prefHeight="55.0" prefWidth="258.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <Button layoutX="181.0" layoutY="199.0" mnemonicParsing="false" onAction="#Delete" prefHeight="37.0" prefWidth="86.0" text="Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </Button>
+      <Button layoutX="313.0" layoutY="198.0" mnemonicParsing="false" onAction="#clear" prefHeight="40.0" prefWidth="86.0" text="Clear">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

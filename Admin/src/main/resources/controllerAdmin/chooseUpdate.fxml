@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="417.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.UpdateStudent">
+   <children>
+      <Button layoutX="96.0" layoutY="51.0" mnemonicParsing="false" onAction="#updateAddress" prefHeight="37.0" prefWidth="149.0" text="Update Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="96.0" layoutY="124.0" mnemonicParsing="false" onAction="#updateYear" prefHeight="37.0" prefWidth="149.0" text="Update Year">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button layoutX="96.0" layoutY="200.0" mnemonicParsing="false" onAction="#updateDepart" prefHeight="37.0" prefWidth="149.0" text="Update Depart">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="96.0" layoutY="343.0" mnemonicParsing="false" onAction="#updatePassword" text="Update Password">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="96.0" layoutY="274.0" mnemonicParsing="false" onAction="#updateGpa" prefHeight="37.0" prefWidth="149.0" text="Update GPA ">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerAdmin.SmallCheckUserNameBefore">
+   <children>
+      <TextField fx:id="userNameField" layoutX="214.0" layoutY="90.0" prefHeight="37.0" prefWidth="224.0" promptText="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="91.0" layoutY="91.0" prefHeight="37.0" prefWidth="109.0" text="User Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="check" layoutX="218.0" layoutY="171.0" mnemonicParsing="false" onAction="#check" text="Check">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" layoutX="171.0" layoutY="14.0" prefHeight="44.0" prefWidth="277.0" textFill="#ee0000">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="362.0" layoutY="174.0" mnemonicParsing="false" onAction="#clear" prefHeight="44.0" prefWidth="82.0" text="Clear">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>
